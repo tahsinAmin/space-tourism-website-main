@@ -1,4 +1,14 @@
 /* ------------------ */
+/* Custom Properties  */
+/* ------------------ */
+
+:root {
+  --clr-dark: 230 35% 7%;
+  --clr-light: 231 77% 90%;
+  --clr-white: 0 0% 100%;
+}
+
+/* ------------------ */
 /*       Reset        */
 /* ------------------ */
 
@@ -87,15 +97,30 @@ select {
   margin: -1px;
 }
 
-.box {
-  background: lightblue;
-  padding: 3rem;
+/* color */
+
+.bg-dark {
+  background-color: hsl(var(--clr-dark));
+}
+.bg-accent {
+  background-color: hsl(var(--clr-light));
+}
+.bg-white {
+  background-color: hsl(var(--clr-white));
 }
 
-.call-to-action {
-  background: pink;
-  padding: 2rem;
-  border-radius: 1rem;
+.text-dark {
+  color: hsl(var(--clr-dark));
+}
+.text-accent {
+  color: hsl(var(--clr-light));
+}
+.text-white {
+  color: hsl(var(--clr-white));
 }
 
-/* 30:41 */
+.example-component {
+  background-color: hsl(var(--clr-light) / 0.2);
+}
+
+/* 38:46 */
