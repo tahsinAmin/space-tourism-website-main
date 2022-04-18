@@ -68,6 +68,9 @@ body {
   line-height: 1.5;
   min-height: 100vh;
 }
+.uppercase {
+  text-transform: uppercase;
+}
 
 /* Make the images easier to work with */
 /* images have time to time spacing which makes an issue later. Images to max witdh 100 so that it shrinks during responsive. */
@@ -171,14 +174,10 @@ select {
   letter-spacing: 4.75px;
 }
 .letter-spacing-2 {
-  letter-spacing: 2.7px;
+  letter-spacing: 2;
 }
 .letter-spacing-3 {
-  letter-spacing: 2.35px;
-}
-
-.uppercase {
-  text-transform: uppercase;
+  letter-spacing: 3;
 }
 
 .fs-900 {
@@ -217,4 +216,4 @@ select {
   line-height: 1.1;
 }
 
-/* 53:22 - https://youtu.be/lRaL-8qZ0mM?t=2823 */
+/* https://youtu.be/lRaL-8qZ0mM?t=3492 */
